@@ -1,0 +1,6 @@
+name: KillMoney
+main: main.KillMoney
+version: 1.0
+author: Andreaita44
+description: Guadagni soldi a ogni kill e quello killato ne perde
+commands: {}
