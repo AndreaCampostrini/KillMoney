@@ -30,11 +30,11 @@ public class KillMoney extends JavaPlugin implements Listener{
         String kl = killer.getName();
         String kd = killed.getName();
 
-		if(killer instanceof Player && killed instanceof Player) {
+	if(killer instanceof Player && killed instanceof Player) {
             killer.sendMessage(ChatColor.AQUA + "Hai ottenuto 1000$ killando" + kd);
             killed.sendMessage(ChatColor.AQUA + "Sei stato killato da " + kl + " e hai perso 500$");
-			Economy.add(kl, 1000);
+	    Economy.add(kl, 1000);
             Economy.subtract(kd, 500);
-		}
+	}
     }
 }
